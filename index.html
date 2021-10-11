@@ -25,14 +25,14 @@
         let sphere, ambient;
 
         let createSphere = function() {
-          geometry = new THREE.SphereGeometry( 1, 2, 10 );
+          geometry = new THREE.SphereGeometry( 3, 5, 10 );
           material = new THREE.MeshPhongMaterial( { 
 				    //wireframe: true,
             color: 0x808080 
 			    } );
           sphere = new THREE.Mesh( geometry, material );
           scene.add( sphere );
-          sphere.position.set(-5, -3, 0);
+          sphere.position.set(0, 0, 0);
           
           ambient = new THREE.AmbientLight(0xffffff, 2);
           scene.add(ambient);

@@ -1,1 +1,1 @@
-# Contoh Ambient Light
+# Contoh Ambient Light dan Hemisphere Light
